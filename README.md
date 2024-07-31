@@ -1,6 +1,5 @@
-![Logo](Images/EasyQuant.png)
+# <img src="https://github.com/justmwest/easyquant/blob/main/Images/EasyQuant.png" width="40"> EasyQuant 
 
-# Description
 EasyQuant is a GUI-based program for fitting multiple, overlapping gaussian
 curves to 2D data. It is mainly used to extract integrated intensities (i.e.,
 areas under the curve) from SDS-PAGE gel profiles extracted by imageJ's 'plot
@@ -24,7 +23,7 @@ I recommend setting up a new conda environment:
 and then installing other dependencies:
 ```
 conda activate easyquant
-conda install numpy scipy matplotlib tkinter
+conda install numpy scipy matplotlib tk
 ```
 From this environment, you can now start EasyQuant by cloning this repository, cding into it, and then running:
 ```python3 EasyQuant.py```.
