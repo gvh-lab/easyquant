@@ -23,7 +23,7 @@ I recommend setting up a new conda environment:
 and then installing other dependencies:
 ```
 conda activate easyquant
-conda install numpy scipy matplotlib tk
+conda install scipy tk matplotlib=3.8.0
 ```
 From this environment, you can now start EasyQuant by cloning this repository, cding into it, and then running:
 ```python3 EasyQuant.py```.
