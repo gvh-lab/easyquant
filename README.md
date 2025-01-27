@@ -26,7 +26,7 @@ conda activate easyquant
 conda install scipy tk matplotlib=3.8.0
 ```
 From this environment, you can now start EasyQuant by cloning this repository, cding into it, and then running:
-```python3 EasyQuant.py```.
+```python3 EasyQuant.py```
 
 # Usage
 
